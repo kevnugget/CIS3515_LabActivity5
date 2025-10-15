@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onNothingSelected(p0: AdapterView<*>?) {
+                    nameTextView.text = ""
+                    deleteButton.isEnabled = false
                 }
             }
         }
